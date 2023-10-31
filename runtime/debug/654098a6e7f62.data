@@ -1,0 +1,811 @@
+a:14:{s:6:"config";s:2082:"a:5:{s:10:"phpVersion";s:6:"7.4.33";s:10:"yiiVersion";s:6:"2.0.49";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.49";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"7.4.33";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:7:{s:23:"yiisoft/yii2-bootstrap5";a:4:{s:4:"name";s:23:"yiisoft/yii2-bootstrap5";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:15:"@yii/bootstrap5";s:75:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2-bootstrap5/src";}s:9:"bootstrap";s:40:"yii\bootstrap5\i18n\TranslationBootstrap";}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.25.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:70:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2-debug/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:70:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2-faker/src";}}s:26:"yiisoft/yii2-symfonymailer";a:3:{s:4:"name";s:26:"yiisoft/yii2-symfonymailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:18:"@yii/symfonymailer";s:78:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2-symfonymailer/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.2.6.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:68:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2-gii/src";}}s:31:"kartik-v/yii2-widget-datepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-datepicker";s:7:"version";s:7:"1.4.8.0";s:5:"alias";a:1:{s:12:"@kartik/date";s:83:"/home/lpt122/Documents/yii-basic-project/vendor/kartik-v/yii2-widget-datepicker/src";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"3.0.5.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:77:"/home/lpt122/Documents/yii-basic-project/vendor/kartik-v/yii2-krajee-base/src";}}}}";s:3:"log";s:23077:"a:1:{s:8:"messages";a:31:{i:0;a:6:{i:0;s:68:"Bootstrap with yii\bootstrap5\i18n\TranslationBootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1698732198.946951;i:4;a:0:{}i:5;i:853448;}i:1;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1698732198.947487;i:4;a:0:{}i:5;i:874064;}i:2;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1698732198.947542;i:4;a:0:{}i:5;i:874864;}i:3;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1698732198.949336;i:4;a:0:{}i:5;i:1058752;}i:4;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1698732198.950013;i:4;a:0:{}i:5;i:1147528;}i:5;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1698732198.950215;i:4;a:0:{}i:5;i:1161248;}i:6;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1698732198.950313;i:4;a:0:{}i:5;i:1166792;}i:8;a:6:{i:0;s:34:"Route requested: 'pembelian/index'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1698732198.950515;i:4;a:0:{}i:5;i:1174944;}i:9;a:6:{i:0;s:29:"Route to run: pembelian/index";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1698732198.950843;i:4;a:0:{}i:5;i:1258128;}i:10;a:6:{i:0;s:66:"Running action: app\controllers\PembelianController::actionIndex()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1698732198.951172;i:4;a:0:{}i:5;i:1281232;}i:11;a:6:{i:0;s:72:"Opening DB connection: pgsql:host=10.10.172.3;dbname=postgres; port=5234";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1698732198.95273;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1567248;}i:14;a:6:{i:0;s:2822:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'pemb_obat_auro_t'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732198.99224;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1584896;}i:17;a:6:{i:0;s:884:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='pemb_obat_auro_t'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.028643;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1604832;}i:20;a:6:{i:0;s:87:"Rendering view file: /home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1698732199.043979;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1609968;}i:21;a:6:{i:0;s:39:"SELECT COUNT(*) FROM "pemb_obat_auro_t"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.044725;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1829464;}i:24;a:6:{i:0;s:41:"SELECT * FROM "pemb_obat_auro_t" LIMIT 20";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.065699;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1907944;}i:27;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.079053;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1963560;}i:30;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'obat_auro_m'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.089576;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1975736;}i:33;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='obat_auro_m'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.10571;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1987664;}i:36;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.116513;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1997144;}i:39;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.124903;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2009160;}i:42;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.130539;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2021160;}i:45;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.145325;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2033192;}i:48;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.161437;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2045208;}i:51;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.172211;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2057240;}i:54;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.178187;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2069256;}i:57;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.187996;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2081288;}i:60;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.193312;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2093624;}i:63;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.209562;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2111256;}i:66;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.222681;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2128856;}i:69;a:6:{i:0;s:84:"Rendering view file: /home/lpt122/Documents/yii-basic-project/views/layouts/main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1698732199.230373;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2091088;}}}";s:9:"profiling";s:41451:"a:3:{s:6:"memory";i:2349376;s:4:"time";d:0.298734188079834;s:8:"messages";a:38:{i:12;a:6:{i:0;s:72:"Opening DB connection: pgsql:host=10.10.172.3;dbname=postgres; port=5234";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1698732198.952768;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1568752;}i:13;a:6:{i:0;s:72:"Opening DB connection: pgsql:host=10.10.172.3;dbname=postgres; port=5234";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1698732198.992114;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1571064;}i:15;a:6:{i:0;s:2822:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'pemb_obat_auro_t'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732198.992271;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1596064;}i:16;a:6:{i:0;s:2822:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'pemb_obat_auro_t'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.027011;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1609016;}i:18;a:6:{i:0;s:884:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='pemb_obat_auro_t'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.028674;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1609512;}i:19;a:6:{i:0;s:884:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='pemb_obat_auro_t'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.039515;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1612336;}i:22;a:6:{i:0;s:39:"SELECT COUNT(*) FROM "pemb_obat_auro_t"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.044749;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1831472;}i:23;a:6:{i:0;s:39:"SELECT COUNT(*) FROM "pemb_obat_auro_t"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.064143;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1833040;}i:25;a:6:{i:0;s:41:"SELECT * FROM "pemb_obat_auro_t" LIMIT 20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.065737;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1909984;}i:26;a:6:{i:0;s:41:"SELECT * FROM "pemb_obat_auro_t" LIMIT 20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.075631;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1917936;}i:28;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.079087;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1966792;}i:29;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.087149;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1969760;}i:31;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'obat_auro_m'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.089685;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1987192;}i:32;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'obat_auro_m'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.102726;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2001848;}i:34;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='obat_auro_m'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.105753;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1992720;}i:35;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='obat_auro_m'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.113145;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1995040;}i:37;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.116572;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2000376;}i:38;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.122867;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2003360;}i:40;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.124936;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2012392;}i:41;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.129017;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2015360;}i:43;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.130568;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2024392;}i:44;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.141608;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2027392;}i:46;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.145378;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2036424;}i:47;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.157649;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2039408;}i:49;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.161491;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2048440;}i:50;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.16629;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2051440;}i:52;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.17225;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2060472;}i:53;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.176587;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2063456;}i:55;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.178234;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2072488;}i:56;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.184431;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2075488;}i:58;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.188054;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2084520;}i:59;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.191874;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2087504;}i:61;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.193349;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2096856;}i:62;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.20722;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2099824;}i:64;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.209605;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2114488;}i:65;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.218224;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2123088;}i:67;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.222734;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2132088;}i:68;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.227393;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2135088;}}}";s:2:"db";s:40229:"a:1:{s:8:"messages";a:36:{i:15;a:6:{i:0;s:2822:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'pemb_obat_auro_t'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732198.992271;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1596064;}i:16;a:6:{i:0;s:2822:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'pemb_obat_auro_t'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.027011;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1609016;}i:18;a:6:{i:0;s:884:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='pemb_obat_auro_t'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.028674;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1609512;}i:19;a:6:{i:0;s:884:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='pemb_obat_auro_t'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.039515;i:4;a:2:{i:0;a:5:{s:4:"file";s:60:"/home/lpt122/Documents/yii-basic-project/models/PencBeli.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:45;s:8:"function";s:6:"search";s:5:"class";s:19:"app\models\PencBeli";s:4:"type";s:2:"->";}}i:5;i:1612336;}i:22;a:6:{i:0;s:39:"SELECT COUNT(*) FROM "pemb_obat_auro_t"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.044749;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1831472;}i:23;a:6:{i:0;s:39:"SELECT COUNT(*) FROM "pemb_obat_auro_t"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.064143;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1833040;}i:25;a:6:{i:0;s:41:"SELECT * FROM "pemb_obat_auro_t" LIMIT 20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.065737;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1909984;}i:26;a:6:{i:0;s:41:"SELECT * FROM "pemb_obat_auro_t" LIMIT 20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.075631;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1917936;}i:28;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.079087;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1966792;}i:29;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.087149;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1969760;}i:31;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'obat_auro_m'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.089685;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1987192;}i:32;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'obat_auro_m'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.102726;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2001848;}i:34;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='obat_auro_m'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.105753;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1992720;}i:35;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='obat_auro_m'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.113145;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1995040;}i:37;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.116572;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2000376;}i:38;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.122867;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2003360;}i:40;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.124936;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2012392;}i:41;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.129017;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2015360;}i:43;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.130568;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2024392;}i:44;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.141608;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2027392;}i:46;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.145378;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2036424;}i:47;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.157649;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2039408;}i:49;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.161491;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2048440;}i:50;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.16629;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2051440;}i:52;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.17225;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2060472;}i:53;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.176587;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2063456;}i:55;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.178234;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2072488;}i:56;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.184431;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2075488;}i:58;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.188054;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2084520;}i:59;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.191874;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2087504;}i:61;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.193349;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2096856;}i:62;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.20722;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2099824;}i:64;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.209605;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2114488;}i:65;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.218224;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2123088;}i:67;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.222734;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2132088;}i:68;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1698732199.227393;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:36;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/pembelian/index.php";s:4:"line";i:46;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PembelianController.php";s:4:"line";i:49;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2135088;}}}";s:5:"event";s:17417:"a:101:{i:0;a:5:{s:4:"time";d:1698732198.950469;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:1;a:5:{s:4:"time";d:1698732198.950923;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:2;a:5:{s:4:"time";d:1698732198.951049;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:35:"app\controllers\PembelianController";}i:3;a:5:{s:4:"time";d:1698732198.951624;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\models\PencBeli";}i:4;a:5:{s:4:"time";d:1698732198.951917;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:5;a:5:{s:4:"time";d:1698732198.952064;s:4:"name";s:14:"beforeValidate";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\models\PencBeli";}i:6;a:5:{s:4:"time";d:1698732198.992105;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:7;a:5:{s:4:"time";d:1698732199.043867;s:4:"name";s:13:"afterValidate";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\models\PencBeli";}i:8;a:5:{s:4:"time";d:1698732199.043974;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:9;a:5:{s:4:"time";d:1698732199.044165;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\grid\GridView";}i:10;a:5:{s:4:"time";d:1698732199.044366;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\grid\GridView";}i:11;a:5:{s:4:"time";d:1698732199.065611;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:12;a:5:{s:4:"time";d:1698732199.078117;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:13;a:5:{s:4:"time";d:1698732199.078151;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:14;a:5:{s:4:"time";d:1698732199.078162;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:15;a:5:{s:4:"time";d:1698732199.07817;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:16;a:5:{s:4:"time";d:1698732199.078178;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:17;a:5:{s:4:"time";d:1698732199.078196;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:18;a:5:{s:4:"time";d:1698732199.078203;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:19;a:5:{s:4:"time";d:1698732199.07821;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:20;a:5:{s:4:"time";d:1698732199.078216;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:21;a:5:{s:4:"time";d:1698732199.078223;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:22;a:5:{s:4:"time";d:1698732199.078229;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:23;a:5:{s:4:"time";d:1698732199.078235;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:24;a:5:{s:4:"time";d:1698732199.078244;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:25;a:5:{s:4:"time";d:1698732199.078247;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:26;a:5:{s:4:"time";d:1698732199.07825;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:27;a:5:{s:4:"time";d:1698732199.078252;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:28;a:5:{s:4:"time";d:1698732199.078255;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:29;a:5:{s:4:"time";d:1698732199.078257;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:30;a:5:{s:4:"time";d:1698732199.07826;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:31;a:5:{s:4:"time";d:1698732199.078262;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:32;a:5:{s:4:"time";d:1698732199.078264;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:33;a:5:{s:4:"time";d:1698732199.078267;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:34;a:5:{s:4:"time";d:1698732199.07827;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:35;a:5:{s:4:"time";d:1698732199.078273;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PembelianObat";}i:36;a:5:{s:4:"time";d:1698732199.078887;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:37;a:5:{s:4:"time";d:1698732199.089505;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:38;a:5:{s:4:"time";d:1698732199.116099;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:39;a:5:{s:4:"time";d:1698732199.116395;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:40;a:5:{s:4:"time";d:1698732199.124665;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:41;a:5:{s:4:"time";d:1698732199.124695;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:42;a:5:{s:4:"time";d:1698732199.124831;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:43;a:5:{s:4:"time";d:1698732199.130306;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:44;a:5:{s:4:"time";d:1698732199.130335;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:45;a:5:{s:4:"time";d:1698732199.130468;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:46;a:5:{s:4:"time";d:1698732199.144949;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:47;a:5:{s:4:"time";d:1698732199.144993;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:48;a:5:{s:4:"time";d:1698732199.145217;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:49;a:5:{s:4:"time";d:1698732199.16116;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:50;a:5:{s:4:"time";d:1698732199.161195;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:51;a:5:{s:4:"time";d:1698732199.161356;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:52;a:5:{s:4:"time";d:1698732199.171939;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:53;a:5:{s:4:"time";d:1698732199.171974;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:54;a:5:{s:4:"time";d:1698732199.172129;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:55;a:5:{s:4:"time";d:1698732199.177918;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:56;a:5:{s:4:"time";d:1698732199.177951;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:57;a:5:{s:4:"time";d:1698732199.178107;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:58;a:5:{s:4:"time";d:1698732199.187697;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:59;a:5:{s:4:"time";d:1698732199.187736;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:60;a:5:{s:4:"time";d:1698732199.187907;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:61;a:5:{s:4:"time";d:1698732199.193024;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:62;a:5:{s:4:"time";d:1698732199.193059;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:63;a:5:{s:4:"time";d:1698732199.193222;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:64;a:5:{s:4:"time";d:1698732199.209205;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:65;a:5:{s:4:"time";d:1698732199.209254;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:66;a:5:{s:4:"time";d:1698732199.209444;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:67;a:5:{s:4:"time";d:1698732199.222413;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:68;a:5:{s:4:"time";d:1698732199.222446;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:69;a:5:{s:4:"time";d:1698732199.222599;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:70;a:5:{s:4:"time";d:1698732199.229828;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:71;a:5:{s:4:"time";d:1698732199.229875;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:72;a:5:{s:4:"time";d:1698732199.230223;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\widgets\LinkPager";}i:73;a:5:{s:4:"time";d:1698732199.230235;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\widgets\LinkPager";}i:74;a:5:{s:4:"time";d:1698732199.230247;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\widgets\LinkPager";}i:75;a:5:{s:4:"time";d:1698732199.230279;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\grid\GridView";}i:76;a:5:{s:4:"time";d:1698732199.230316;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:77;a:5:{s:4:"time";d:1698732199.230368;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:78;a:5:{s:4:"time";d:1698732199.230611;s:4:"name";s:9:"beginPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:79;a:5:{s:4:"time";d:1698732199.230659;s:4:"name";s:9:"beginBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:80;a:5:{s:4:"time";d:1698732199.230727;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\bootstrap5\NavBar";}i:81;a:5:{s:4:"time";d:1698732199.230843;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\bootstrap5\Nav";}i:82;a:5:{s:4:"time";d:1698732199.230857;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\bootstrap5\Nav";}i:83;a:5:{s:4:"time";d:1698732199.230944;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\bootstrap5\Nav";}i:84;a:5:{s:4:"time";d:1698732199.230954;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\bootstrap5\NavBar";}i:85;a:5:{s:4:"time";d:1698732199.230998;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\bootstrap5\NavBar";}i:86;a:5:{s:4:"time";d:1698732199.231042;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"yii\bootstrap5\Breadcrumbs";}i:87;a:5:{s:4:"time";d:1698732199.231048;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"yii\bootstrap5\Breadcrumbs";}i:88;a:5:{s:4:"time";d:1698732199.231082;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"yii\bootstrap5\Breadcrumbs";}i:89;a:5:{s:4:"time";d:1698732199.23111;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\widgets\Alert";}i:90;a:5:{s:4:"time";d:1698732199.231115;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\widgets\Alert";}i:91;a:5:{s:4:"time";d:1698732199.23113;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\widgets\Alert";}i:92;a:5:{s:4:"time";d:1698732199.23131;s:4:"name";s:7:"endBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:93;a:5:{s:4:"time";d:1698732199.231386;s:4:"name";s:7:"endPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:94;a:5:{s:4:"time";d:1698732199.231676;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:95;a:5:{s:4:"time";d:1698732199.231694;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:35:"app\controllers\PembelianController";}i:96;a:5:{s:4:"time";d:1698732199.231704;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:97;a:5:{s:4:"time";d:1698732199.231715;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:98;a:5:{s:4:"time";d:1698732199.231722;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:99;a:5:{s:4:"time";d:1698732199.231846;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:100;a:5:{s:4:"time";d:1698732199.231978;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1698732198.933704;s:3:"end";d:1698732199.232842;s:6:"memory";i:2349376;}";s:4:"dump";s:6:"a:0:{}";s:6:"router";s:311:"a:3:{s:8:"messages";a:1:{i:7;a:6:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1698732198.950491;i:4;a:0:{}i:5;i:1174880;}}s:5:"route";s:15:"pembelian/index";s:6:"action";s:50:"app\controllers\PembelianController::actionIndex()";}";s:7:"request";s:3599:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:13:{s:4:"host";s:14:"localhost:8080";s:10:"user-agent";s:78:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0";s:6:"accept";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8";s:15:"accept-language";s:14:"en-US,en;q=0.5";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:10:"connection";s:10:"keep-alive";s:7:"referer";s:46:"http://localhost:8080/index.php?r=obat%2Findex";s:6:"cookie";s:210:"PHPSESSID=8ro9535n8hdn989pvp1k0t32bi; _csrf=354af2469dd9125023d38e723f0b3bbc0075688a43a3b926b9aa04436eb09b6ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222kTQQePVLxmMsDqvx9-Gl-A_56TprCvh%22%3B%7D";s:25:"upgrade-insecure-requests";s:1:"1";s:14:"sec-fetch-dest";s:8:"document";s:14:"sec-fetch-mode";s:8:"navigate";s:14:"sec-fetch-site";s:11:"same-origin";s:14:"sec-fetch-user";s:2:"?1";}s:15:"responseHeaders";a:8:{s:12:"X-Powered-By";s:10:"PHP/7.4.33";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"654098a6e7f62";s:16:"X-Debug-Duration";s:3:"299";s:12:"X-Debug-Link";s:53:"/index.php?r=debug%2Fdefault%2Fview&tag=654098a6e7f62";}s:5:"route";s:15:"pembelian/index";s:6:"action";s:50:"app\controllers\PembelianController::actionIndex()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:3:"GET";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:0:{}s:6:"SERVER";a:28:{s:13:"DOCUMENT_ROOT";s:44:"/home/lpt122/Documents/yii-basic-project/web";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:11:"REMOTE_PORT";s:5:"60760";s:15:"SERVER_SOFTWARE";s:29:"PHP 7.4.33 Development Server";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_PORT";s:4:"8080";s:11:"REQUEST_URI";s:30:"/index.php?r=pembelian%2Findex";s:14:"REQUEST_METHOD";s:3:"GET";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:54:"/home/lpt122/Documents/yii-basic-project/web/index.php";s:8:"PHP_SELF";s:10:"/index.php";s:12:"QUERY_STRING";s:19:"r=pembelian%2Findex";s:9:"HTTP_HOST";s:14:"localhost:8080";s:15:"HTTP_USER_AGENT";s:78:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0";s:11:"HTTP_ACCEPT";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:12:"HTTP_REFERER";s:46:"http://localhost:8080/index.php?r=obat%2Findex";s:11:"HTTP_COOKIE";s:210:"PHPSESSID=8ro9535n8hdn989pvp1k0t32bi; _csrf=354af2469dd9125023d38e723f0b3bbc0075688a43a3b926b9aa04436eb09b6ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222kTQQePVLxmMsDqvx9-Gl-A_56TprCvh%22%3B%7D";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:19:"HTTP_SEC_FETCH_DEST";s:8:"document";s:19:"HTTP_SEC_FETCH_MODE";s:8:"navigate";s:19:"HTTP_SEC_FETCH_SITE";s:11:"same-origin";s:19:"HTTP_SEC_FETCH_USER";s:2:"?1";s:18:"REQUEST_TIME_FLOAT";d:1698732198.932432;s:12:"REQUEST_TIME";i:1698732198;}s:3:"GET";a:1:{s:1:"r";s:15:"pembelian/index";}s:4:"POST";a:0:{}s:6:"COOKIE";a:2:{s:9:"PHPSESSID";s:26:"8ro9535n8hdn989pvp1k0t32bi";s:5:"_csrf";s:130:"354af2469dd9125023d38e723f0b3bbc0075688a43a3b926b9aa04436eb09b6ca:2:{i:0;s:5:"_csrf";i:1;s:32:"2kTQQePVLxmMsDqvx9-Gl-A_56TprCvh";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:1:{s:7:"__flash";a:0:{}}}";s:4:"user";s:2:"N;";s:5:"asset";s:2496:"a:6:{s:22:"yii\grid\GridViewAsset";a:9:{s:10:"sourcePath";s:67:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:15:"yii.gridView.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:60:"/home/lpt122/Documents/yii-basic-project/web/assets/9b208673";s:7:"baseUrl";s:16:"/assets/9b208673";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:67:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:60:"/home/lpt122/Documents/yii-basic-project/web/assets/9b208673";s:7:"baseUrl";s:16:"/assets/9b208673";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:71:"/home/lpt122/Documents/yii-basic-project/vendor/bower-asset/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:60:"/home/lpt122/Documents/yii-basic-project/web/assets/f00e0374";s:7:"baseUrl";s:16:"/assets/f00e0374";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"app\assets\AppAsset";a:9:{s:8:"basePath";s:44:"/home/lpt122/Documents/yii-basic-project/web";s:7:"baseUrl";s:0:"";s:3:"css";a:1:{i:0;s:12:"css/site.css";}s:2:"js";a:0:{}s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:29:"yii\bootstrap5\BootstrapAsset";}s:10:"sourcePath";N;s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:29:"yii\bootstrap5\BootstrapAsset";a:9:{s:10:"sourcePath";s:69:"/home/lpt122/Documents/yii-basic-project/vendor/bower-asset/bootstrap";s:3:"css";a:1:{i:0;s:22:"dist/css/bootstrap.css";}s:8:"basePath";s:60:"/home/lpt122/Documents/yii-basic-project/web/assets/7947ab4e";s:7:"baseUrl";s:16:"/assets/7947ab4e";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:35:"yii\bootstrap5\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:69:"/home/lpt122/Documents/yii-basic-project/vendor/bower-asset/bootstrap";s:2:"js";a:1:{i:0;s:27:"dist/js/bootstrap.bundle.js";}s:7:"depends";a:1:{i:0;s:29:"yii\bootstrap5\BootstrapAsset";}s:8:"basePath";s:60:"/home/lpt122/Documents/yii-basic-project/web/assets/7947ab4e";s:7:"baseUrl";s:16:"/assets/7947ab4e";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}";s:7:"summary";a:13:{s:3:"tag";s:13:"654098a6e7f62";s:3:"url";s:51:"http://localhost:8080/index.php?r=pembelian%2Findex";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1698732198.932432;s:10:"statusCode";i:200;s:8:"sqlCount";i:18;s:21:"excessiveCallersCount";i:0;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:2349376;s:14:"processingTime";d:0.298734188079834;}s:10:"exceptions";a:0:{}}

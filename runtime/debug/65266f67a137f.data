@@ -1,0 +1,811 @@
+a:14:{s:6:"config";s:2082:"a:5:{s:10:"phpVersion";s:6:"7.4.33";s:10:"yiiVersion";s:6:"2.0.49";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.49";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"7.4.33";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:7:{s:23:"yiisoft/yii2-bootstrap5";a:4:{s:4:"name";s:23:"yiisoft/yii2-bootstrap5";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:15:"@yii/bootstrap5";s:75:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2-bootstrap5/src";}s:9:"bootstrap";s:40:"yii\bootstrap5\i18n\TranslationBootstrap";}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.25.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:70:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2-debug/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:70:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2-faker/src";}}s:26:"yiisoft/yii2-symfonymailer";a:3:{s:4:"name";s:26:"yiisoft/yii2-symfonymailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:18:"@yii/symfonymailer";s:78:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2-symfonymailer/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.2.6.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:68:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2-gii/src";}}s:31:"kartik-v/yii2-widget-datepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-datepicker";s:7:"version";s:7:"1.4.8.0";s:5:"alias";a:1:{s:12:"@kartik/date";s:83:"/home/lpt122/Documents/yii-basic-project/vendor/kartik-v/yii2-widget-datepicker/src";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"3.0.5.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:77:"/home/lpt122/Documents/yii-basic-project/vendor/kartik-v/yii2-krajee-base/src";}}}}";s:3:"log";s:27513:"a:1:{s:8:"messages";a:37:{i:0;a:6:{i:0;s:68:"Bootstrap with yii\bootstrap5\i18n\TranslationBootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1697017703.659578;i:4;a:0:{}i:5;i:853608;}i:1;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1697017703.659682;i:4;a:0:{}i:5;i:874224;}i:2;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1697017703.659695;i:4;a:0:{}i:5;i:875024;}i:3;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1697017703.660121;i:4;a:0:{}i:5;i:1059600;}i:4;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1697017703.660322;i:4;a:0:{}i:5;i:1148376;}i:5;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1697017703.660398;i:4;a:0:{}i:5;i:1162096;}i:6;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1697017703.660429;i:4;a:0:{}i:5;i:1167640;}i:8;a:6:{i:0;s:34:"Route requested: 'penjualan/index'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1697017703.660495;i:4;a:0:{}i:5;i:1175792;}i:9;a:6:{i:0;s:29:"Route to run: penjualan/index";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1697017703.660597;i:4;a:0:{}i:5;i:1258976;}i:10;a:6:{i:0;s:66:"Running action: app\controllers\PenjualanController::actionIndex()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1697017703.660699;i:4;a:0:{}i:5;i:1282080;}i:11;a:6:{i:0;s:61:"Opening DB connection: pgsql:host=10.10.172.3;dbname=postgres";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1697017703.661337;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1571968;}i:14;a:6:{i:0;s:2823:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'penju_obat_auro_t'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.672644;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1589608;}i:17;a:6:{i:0;s:885:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='penju_obat_auro_t'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.692628;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1609504;}i:20;a:6:{i:0;s:87:"Rendering view file: /home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1697017703.699441;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1613736;}i:21;a:6:{i:0;s:40:"SELECT COUNT(*) FROM "penju_obat_auro_t"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.700282;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1833328;}i:24;a:6:{i:0;s:52:"SELECT * FROM "penju_obat_auro_t" LIMIT 20 OFFSET 20";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.703246;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1911840;}i:27;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.707167;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1975368;}i:30;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'obat_auro_m'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.710203;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1987560;}i:33;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='obat_auro_m'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.72005;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1999488;}i:36;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.725824;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2006360;}i:39;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.728443;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2015768;}i:42;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.731257;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2025176;}i:45;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.734189;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2034584;}i:48;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.73695;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2043992;}i:51;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.739862;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2059040;}i:54;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.742426;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2068440;}i:57;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.745095;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2077856;}i:60;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.747808;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2087624;}i:63;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.750575;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2097032;}i:66;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.753258;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2112072;}i:69;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.755826;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2121480;}i:72;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.758484;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2130888;}i:75;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.761252;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2139544;}i:78;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.763849;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2148120;}i:81;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.766664;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2157528;}i:84;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.769463;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2167584;}i:87;a:6:{i:0;s:84:"Rendering view file: /home/lpt122/Documents/yii-basic-project/views/layouts/main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1697017703.772304;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2126048;}}}";s:9:"profiling";s:50330:"a:3:{s:6:"memory";i:2421200;s:4:"time";d:0.11767292022705078;s:8:"messages";a:50:{i:12;a:6:{i:0;s:61:"Opening DB connection: pgsql:host=10.10.172.3;dbname=postgres";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1697017703.661353;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1573472;}i:13;a:6:{i:0;s:61:"Opening DB connection: pgsql:host=10.10.172.3;dbname=postgres";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1697017703.672444;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1575776;}i:15;a:6:{i:0;s:2823:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'penju_obat_auro_t'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.672724;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1600776;}i:16;a:6:{i:0;s:2823:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'penju_obat_auro_t'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.691546;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1613600;}i:18;a:6:{i:0;s:885:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='penju_obat_auro_t'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.692664;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1614184;}i:19;a:6:{i:0;s:885:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='penju_obat_auro_t'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.698637;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1616128;}i:22;a:6:{i:0;s:40:"SELECT COUNT(*) FROM "penju_obat_auro_t"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.700312;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1835368;}i:23;a:6:{i:0;s:40:"SELECT COUNT(*) FROM "penju_obat_auro_t"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.70243;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1836936;}i:25;a:6:{i:0;s:52:"SELECT * FROM "penju_obat_auro_t" LIMIT 20 OFFSET 20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.703275;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1913896;}i:26;a:6:{i:0;s:52:"SELECT * FROM "penju_obat_auro_t" LIMIT 20 OFFSET 20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.705417;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1925296;}i:28;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.707207;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1978600;}i:29;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.709406;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1981584;}i:31;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'obat_auro_m'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.710245;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1999016;}i:32;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'obat_auro_m'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.719207;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2013672;}i:34;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='obat_auro_m'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.720086;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2004544;}i:35;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='obat_auro_m'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.724892;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2006864;}i:37;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.725854;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2009592;}i:38;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.72749;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2012576;}i:40;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.728508;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2019000;}i:41;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.730219;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2021968;}i:43;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.731314;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2028408;}i:44;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.73322;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2031392;}i:46;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.734227;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2037816;}i:47;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.736006;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2040784;}i:49;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.737;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2047224;}i:50;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.738771;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2050192;}i:52;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.739901;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2062272;}i:53;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.741627;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2065256;}i:55;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.742451;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2071672;}i:56;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.744154;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2074672;}i:58;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.745145;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2081088;}i:59;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.746884;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2084056;}i:61;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.747861;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2090856;}i:62;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.749652;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2093824;}i:64;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.750604;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2100264;}i:65;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.752375;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2108864;}i:67;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.753283;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2115304;}i:68;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.75498;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2118272;}i:70;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.755848;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2124712;}i:71;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.757652;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2127712;}i:73;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.758537;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2134120;}i:74;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.760381;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2136536;}i:76;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.76129;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2142776;}i:77;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.762985;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2145192;}i:79;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.763885;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2151352;}i:80;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.765725;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2154320;}i:82;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.766701;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2160760;}i:83;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.768514;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2163744;}i:85;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.769492;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2170816;}i:86;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.771179;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2173784;}}}";s:2:"db";s:49120:"a:1:{s:8:"messages";a:48:{i:15;a:6:{i:0;s:2823:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'penju_obat_auro_t'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.672724;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1600776;}i:16;a:6:{i:0;s:2823:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'penju_obat_auro_t'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.691546;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1613600;}i:18;a:6:{i:0;s:885:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='penju_obat_auro_t'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.692664;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1614184;}i:19;a:6:{i:0;s:885:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='penju_obat_auro_t'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.698637;i:4;a:2:{i:0;a:5:{s:4:"file";s:62:"/home/lpt122/Documents/yii-basic-project/models/PencJualan.php";s:4:"line";i:53;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:48;s:8:"function";s:6:"search";s:5:"class";s:21:"app\models\PencJualan";s:4:"type";s:2:"->";}}i:5;i:1616128;}i:22;a:6:{i:0;s:40:"SELECT COUNT(*) FROM "penju_obat_auro_t"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.700312;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1835368;}i:23;a:6:{i:0;s:40:"SELECT COUNT(*) FROM "penju_obat_auro_t"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.70243;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1836936;}i:25;a:6:{i:0;s:52:"SELECT * FROM "penju_obat_auro_t" LIMIT 20 OFFSET 20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.703275;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1913896;}i:26;a:6:{i:0;s:52:"SELECT * FROM "penju_obat_auro_t" LIMIT 20 OFFSET 20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.705417;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1925296;}i:28;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.707207;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1978600;}i:29;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.709406;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1981584;}i:31;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'obat_auro_m'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.710245;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:1999016;}i:32;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'obat_auro_m'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.719207;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2013672;}i:34;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='obat_auro_m'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.720086;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2004544;}i:35;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='obat_auro_m'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.724892;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2006864;}i:37;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.725854;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2009592;}i:38;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.72749;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2012576;}i:40;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.728508;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2019000;}i:41;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.730219;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2021968;}i:43;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.731314;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2028408;}i:44;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.73322;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2031392;}i:46;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.734227;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2037816;}i:47;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.736006;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2040784;}i:49;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.737;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2047224;}i:50;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.738771;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2050192;}i:52;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.739901;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2062272;}i:53;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.741627;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2065256;}i:55;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.742451;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2071672;}i:56;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.744154;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2074672;}i:58;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.745145;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2081088;}i:59;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.746884;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2084056;}i:61;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.747861;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2090856;}i:62;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.749652;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2093824;}i:64;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.750604;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2100264;}i:65;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.752375;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2108864;}i:67;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.753283;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2115304;}i:68;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.75498;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2118272;}i:70;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.755848;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2124712;}i:71;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.757652;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2127712;}i:73;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.758537;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2134120;}i:74;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.760381;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2136536;}i:76;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.76129;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2142776;}i:77;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.762985;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2145192;}i:79;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.763885;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2151352;}i:80;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.765725;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2154320;}i:82;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.766701;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2160760;}i:83;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.768514;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2163744;}i:85;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.769492;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2170816;}i:86;a:6:{i:0;s:45:"SELECT * FROM "obat_auro_m" WHERE "id_obat"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1697017703.771179;i:4;a:3:{i:0;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:40;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:66:"/home/lpt122/Documents/yii-basic-project/views/penjualan/index.php";s:4:"line";i:52;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:76:"/home/lpt122/Documents/yii-basic-project/controllers/PenjualanController.php";s:4:"line";i:52;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:2173784;}}}";s:5:"event";s:21902:"a:127:{i:0;a:5:{s:4:"time";d:1697017703.660479;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:1;a:5:{s:4:"time";d:1697017703.660621;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:2;a:5:{s:4:"time";d:1697017703.660658;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:35:"app\controllers\PenjualanController";}i:3;a:5:{s:4:"time";d:1697017703.660939;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\models\PencJualan";}i:4;a:5:{s:4:"time";d:1697017703.661052;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:5;a:5:{s:4:"time";d:1697017703.661099;s:4:"name";s:14:"beforeValidate";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\models\PencJualan";}i:6;a:5:{s:4:"time";d:1697017703.672432;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:7;a:5:{s:4:"time";d:1697017703.699276;s:4:"name";s:13:"afterValidate";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\models\PencJualan";}i:8;a:5:{s:4:"time";d:1697017703.699436;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:9;a:5:{s:4:"time";d:1697017703.699652;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\grid\GridView";}i:10;a:5:{s:4:"time";d:1697017703.699878;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\grid\GridView";}i:11;a:5:{s:4:"time";d:1697017703.703171;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:12;a:5:{s:4:"time";d:1697017703.706068;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:13;a:5:{s:4:"time";d:1697017703.706102;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:14;a:5:{s:4:"time";d:1697017703.706115;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:15;a:5:{s:4:"time";d:1697017703.706124;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:16;a:5:{s:4:"time";d:1697017703.706134;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:17;a:5:{s:4:"time";d:1697017703.706156;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:18;a:5:{s:4:"time";d:1697017703.706165;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:19;a:5:{s:4:"time";d:1697017703.706174;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:20;a:5:{s:4:"time";d:1697017703.706182;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:21;a:5:{s:4:"time";d:1697017703.706191;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:22;a:5:{s:4:"time";d:1697017703.706199;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:23;a:5:{s:4:"time";d:1697017703.706207;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:24;a:5:{s:4:"time";d:1697017703.706215;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:25;a:5:{s:4:"time";d:1697017703.706223;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:26;a:5:{s:4:"time";d:1697017703.70623;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:27;a:5:{s:4:"time";d:1697017703.706238;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:28;a:5:{s:4:"time";d:1697017703.706247;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:29;a:5:{s:4:"time";d:1697017703.706256;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:30;a:5:{s:4:"time";d:1697017703.706267;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:31;a:5:{s:4:"time";d:1697017703.70627;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:32;a:5:{s:4:"time";d:1697017703.706273;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:33;a:5:{s:4:"time";d:1697017703.706277;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:34;a:5:{s:4:"time";d:1697017703.70628;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:35;a:5:{s:4:"time";d:1697017703.706283;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:36;a:5:{s:4:"time";d:1697017703.706286;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:37;a:5:{s:4:"time";d:1697017703.706289;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:38;a:5:{s:4:"time";d:1697017703.706293;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:39;a:5:{s:4:"time";d:1697017703.706296;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:40;a:5:{s:4:"time";d:1697017703.706299;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:41;a:5:{s:4:"time";d:1697017703.706302;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:42;a:5:{s:4:"time";d:1697017703.706305;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:43;a:5:{s:4:"time";d:1697017703.706308;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:44;a:5:{s:4:"time";d:1697017703.706311;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:45;a:5:{s:4:"time";d:1697017703.706314;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:46;a:5:{s:4:"time";d:1697017703.706317;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:47;a:5:{s:4:"time";d:1697017703.70632;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"app\models\PenjualanObat";}i:48;a:5:{s:4:"time";d:1697017703.70703;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:49;a:5:{s:4:"time";d:1697017703.710134;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:50;a:5:{s:4:"time";d:1697017703.72558;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:51;a:5:{s:4:"time";d:1697017703.725755;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:52;a:5:{s:4:"time";d:1697017703.728145;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:53;a:5:{s:4:"time";d:1697017703.728182;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:54;a:5:{s:4:"time";d:1697017703.728369;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:55;a:5:{s:4:"time";d:1697017703.730858;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:56;a:5:{s:4:"time";d:1697017703.730906;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:57;a:5:{s:4:"time";d:1697017703.731158;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:58;a:5:{s:4:"time";d:1697017703.733922;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:59;a:5:{s:4:"time";d:1697017703.733954;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:60;a:5:{s:4:"time";d:1697017703.734095;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:61;a:5:{s:4:"time";d:1697017703.736698;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:62;a:5:{s:4:"time";d:1697017703.736733;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:63;a:5:{s:4:"time";d:1697017703.736882;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:64;a:5:{s:4:"time";d:1697017703.739597;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:65;a:5:{s:4:"time";d:1697017703.739644;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:66;a:5:{s:4:"time";d:1697017703.739794;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:67;a:5:{s:4:"time";d:1697017703.742223;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:68;a:5:{s:4:"time";d:1697017703.742246;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:69;a:5:{s:4:"time";d:1697017703.742378;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:70;a:5:{s:4:"time";d:1697017703.744816;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:71;a:5:{s:4:"time";d:1697017703.744854;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:72;a:5:{s:4:"time";d:1697017703.745033;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:73;a:5:{s:4:"time";d:1697017703.747538;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:74;a:5:{s:4:"time";d:1697017703.747574;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:75;a:5:{s:4:"time";d:1697017703.747732;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:76;a:5:{s:4:"time";d:1697017703.750318;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:77;a:5:{s:4:"time";d:1697017703.750349;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:78;a:5:{s:4:"time";d:1697017703.75051;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:79;a:5:{s:4:"time";d:1697017703.753067;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:80;a:5:{s:4:"time";d:1697017703.753094;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:81;a:5:{s:4:"time";d:1697017703.753206;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:82;a:5:{s:4:"time";d:1697017703.75566;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:83;a:5:{s:4:"time";d:1697017703.755682;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:84;a:5:{s:4:"time";d:1697017703.755783;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:85;a:5:{s:4:"time";d:1697017703.758283;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:86;a:5:{s:4:"time";d:1697017703.758306;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:87;a:5:{s:4:"time";d:1697017703.758434;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:88;a:5:{s:4:"time";d:1697017703.761177;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:89;a:5:{s:4:"time";d:1697017703.763773;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:90;a:5:{s:4:"time";d:1697017703.766375;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:91;a:5:{s:4:"time";d:1697017703.766425;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:92;a:5:{s:4:"time";d:1697017703.766577;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:93;a:5:{s:4:"time";d:1697017703.769233;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:94;a:5:{s:4:"time";d:1697017703.769261;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:95;a:5:{s:4:"time";d:1697017703.769398;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:96;a:5:{s:4:"time";d:1697017703.771841;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:97;a:5:{s:4:"time";d:1697017703.771866;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"app\models\ObatAuroM";}i:98;a:5:{s:4:"time";d:1697017703.772133;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\widgets\LinkPager";}i:99;a:5:{s:4:"time";d:1697017703.77214;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\widgets\LinkPager";}i:100;a:5:{s:4:"time";d:1697017703.772214;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\widgets\LinkPager";}i:101;a:5:{s:4:"time";d:1697017703.772238;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\grid\GridView";}i:102;a:5:{s:4:"time";d:1697017703.772267;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:103;a:5:{s:4:"time";d:1697017703.772302;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:104;a:5:{s:4:"time";d:1697017703.772541;s:4:"name";s:9:"beginPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:105;a:5:{s:4:"time";d:1697017703.772594;s:4:"name";s:9:"beginBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:106;a:5:{s:4:"time";d:1697017703.772669;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\bootstrap5\NavBar";}i:107;a:5:{s:4:"time";d:1697017703.772791;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\bootstrap5\Nav";}i:108;a:5:{s:4:"time";d:1697017703.772806;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\bootstrap5\Nav";}i:109;a:5:{s:4:"time";d:1697017703.772902;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\bootstrap5\Nav";}i:110;a:5:{s:4:"time";d:1697017703.772913;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\bootstrap5\NavBar";}i:111;a:5:{s:4:"time";d:1697017703.772962;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\bootstrap5\NavBar";}i:112;a:5:{s:4:"time";d:1697017703.77301;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"yii\bootstrap5\Breadcrumbs";}i:113;a:5:{s:4:"time";d:1697017703.773016;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"yii\bootstrap5\Breadcrumbs";}i:114;a:5:{s:4:"time";d:1697017703.773054;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:26:"yii\bootstrap5\Breadcrumbs";}i:115;a:5:{s:4:"time";d:1697017703.773087;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\widgets\Alert";}i:116;a:5:{s:4:"time";d:1697017703.773092;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\widgets\Alert";}i:117;a:5:{s:4:"time";d:1697017703.773108;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"app\widgets\Alert";}i:118;a:5:{s:4:"time";d:1697017703.773301;s:4:"name";s:7:"endBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:119;a:5:{s:4:"time";d:1697017703.773383;s:4:"name";s:7:"endPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:120;a:5:{s:4:"time";d:1697017703.773592;s:4:"name";s:11:"afterRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:121;a:5:{s:4:"time";d:1697017703.773601;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:35:"app\controllers\PenjualanController";}i:122;a:5:{s:4:"time";d:1697017703.773606;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:123;a:5:{s:4:"time";d:1697017703.773611;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:124;a:5:{s:4:"time";d:1697017703.773615;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:125;a:5:{s:4:"time";d:1697017703.773673;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:126;a:5:{s:4:"time";d:1697017703.773767;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1697017703.656546;s:3:"end";d:1697017703.774814;s:6:"memory";i:2421200;}";s:4:"dump";s:6:"a:0:{}";s:6:"router";s:311:"a:3:{s:8:"messages";a:1:{i:7;a:6:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1697017703.660486;i:4;a:0:{}i:5;i:1175728;}}s:5:"route";s:15:"penjualan/index";s:6:"action";s:50:"app\controllers\PenjualanController::actionIndex()";}";s:7:"request";s:3898:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:13:{s:4:"host";s:14:"localhost:8080";s:10:"user-agent";s:78:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0";s:6:"accept";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8";s:15:"accept-language";s:14:"en-US,en;q=0.5";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:10:"connection";s:10:"keep-alive";s:7:"referer";s:51:"http://localhost:8080/index.php?r=penjualan%2Findex";s:6:"cookie";s:210:"PHPSESSID=jkgenjmktbp2fu2skbq65i6ug2; _csrf=f6e5e774cd769281dd90e7e999eb8b99a8eece4e377f415bb70948ef904ae018a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wadojW6RP8fkMd2LR6xsKCuqPXO7N5tY%22%3B%7D";s:25:"upgrade-insecure-requests";s:1:"1";s:14:"sec-fetch-dest";s:8:"document";s:14:"sec-fetch-mode";s:8:"navigate";s:14:"sec-fetch-site";s:11:"same-origin";s:14:"sec-fetch-user";s:2:"?1";}s:15:"responseHeaders";a:8:{s:12:"X-Powered-By";s:10:"PHP/7.4.33";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"65266f67a137f";s:16:"X-Debug-Duration";s:3:"118";s:12:"X-Debug-Link";s:53:"/index.php?r=debug%2Fdefault%2Fview&tag=65266f67a137f";}s:5:"route";s:15:"penjualan/index";s:6:"action";s:50:"app\controllers\PenjualanController::actionIndex()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:3:"GET";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:0:{}s:6:"SERVER";a:28:{s:13:"DOCUMENT_ROOT";s:44:"/home/lpt122/Documents/yii-basic-project/web";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:11:"REMOTE_PORT";s:5:"53108";s:15:"SERVER_SOFTWARE";s:29:"PHP 7.4.33 Development Server";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_PORT";s:4:"8080";s:11:"REQUEST_URI";s:37:"/index.php?r=penjualan%2Findex&page=2";s:14:"REQUEST_METHOD";s:3:"GET";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:54:"/home/lpt122/Documents/yii-basic-project/web/index.php";s:8:"PHP_SELF";s:10:"/index.php";s:12:"QUERY_STRING";s:26:"r=penjualan%2Findex&page=2";s:9:"HTTP_HOST";s:14:"localhost:8080";s:15:"HTTP_USER_AGENT";s:78:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0";s:11:"HTTP_ACCEPT";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:12:"HTTP_REFERER";s:51:"http://localhost:8080/index.php?r=penjualan%2Findex";s:11:"HTTP_COOKIE";s:210:"PHPSESSID=jkgenjmktbp2fu2skbq65i6ug2; _csrf=f6e5e774cd769281dd90e7e999eb8b99a8eece4e377f415bb70948ef904ae018a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wadojW6RP8fkMd2LR6xsKCuqPXO7N5tY%22%3B%7D";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:19:"HTTP_SEC_FETCH_DEST";s:8:"document";s:19:"HTTP_SEC_FETCH_MODE";s:8:"navigate";s:19:"HTTP_SEC_FETCH_SITE";s:11:"same-origin";s:19:"HTTP_SEC_FETCH_USER";s:2:"?1";s:18:"REQUEST_TIME_FLOAT";d:1697017703.656218;s:12:"REQUEST_TIME";i:1697017703;}s:3:"GET";a:2:{s:1:"r";s:15:"penjualan/index";s:4:"page";s:1:"2";}s:4:"POST";a:0:{}s:6:"COOKIE";a:2:{s:9:"PHPSESSID";s:26:"jkgenjmktbp2fu2skbq65i6ug2";s:5:"_csrf";s:130:"f6e5e774cd769281dd90e7e999eb8b99a8eece4e377f415bb70948ef904ae018a:2:{i:0;s:5:"_csrf";i:1;s:32:"wadojW6RP8fkMd2LR6xsKCuqPXO7N5tY";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:5:{s:43:"f124252261beaa379cbffde7ed637615__returnUrl";s:29:"/index.php/diklatAuroM/create";s:36:"f124252261beaa379cbffde7ed637615__id";s:5:"admin";s:38:"f124252261beaa379cbffde7ed637615__name";s:5:"admin";s:40:"f124252261beaa379cbffde7ed637615__states";a:0:{}s:7:"__flash";a:0:{}}}";s:4:"user";s:2:"N;";s:5:"asset";s:2496:"a:6:{s:22:"yii\grid\GridViewAsset";a:9:{s:10:"sourcePath";s:67:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:15:"yii.gridView.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:60:"/home/lpt122/Documents/yii-basic-project/web/assets/9b208673";s:7:"baseUrl";s:16:"/assets/9b208673";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:67:"/home/lpt122/Documents/yii-basic-project/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:60:"/home/lpt122/Documents/yii-basic-project/web/assets/9b208673";s:7:"baseUrl";s:16:"/assets/9b208673";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:71:"/home/lpt122/Documents/yii-basic-project/vendor/bower-asset/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:60:"/home/lpt122/Documents/yii-basic-project/web/assets/f00e0374";s:7:"baseUrl";s:16:"/assets/f00e0374";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"app\assets\AppAsset";a:9:{s:8:"basePath";s:44:"/home/lpt122/Documents/yii-basic-project/web";s:7:"baseUrl";s:0:"";s:3:"css";a:1:{i:0;s:12:"css/site.css";}s:2:"js";a:0:{}s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:29:"yii\bootstrap5\BootstrapAsset";}s:10:"sourcePath";N;s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:29:"yii\bootstrap5\BootstrapAsset";a:9:{s:10:"sourcePath";s:69:"/home/lpt122/Documents/yii-basic-project/vendor/bower-asset/bootstrap";s:3:"css";a:1:{i:0;s:22:"dist/css/bootstrap.css";}s:8:"basePath";s:60:"/home/lpt122/Documents/yii-basic-project/web/assets/7947ab4e";s:7:"baseUrl";s:16:"/assets/7947ab4e";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:35:"yii\bootstrap5\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:69:"/home/lpt122/Documents/yii-basic-project/vendor/bower-asset/bootstrap";s:2:"js";a:1:{i:0;s:27:"dist/js/bootstrap.bundle.js";}s:7:"depends";a:1:{i:0;s:29:"yii\bootstrap5\BootstrapAsset";}s:8:"basePath";s:60:"/home/lpt122/Documents/yii-basic-project/web/assets/7947ab4e";s:7:"baseUrl";s:16:"/assets/7947ab4e";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}";s:7:"summary";a:13:{s:3:"tag";s:13:"65266f67a137f";s:3:"url";s:58:"http://localhost:8080/index.php?r=penjualan%2Findex&page=2";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1697017703.656218;s:10:"statusCode";i:200;s:8:"sqlCount";i:24;s:21:"excessiveCallersCount";i:0;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:2421200;s:14:"processingTime";d:0.11767292022705078;}s:10:"exceptions";a:0:{}}
